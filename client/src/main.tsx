@@ -10,7 +10,8 @@ import { ApolloProvider } from "@apollo/client/react";
 
 // Setup Apollo Client
 const client = new ApolloClient({
-  link: new HttpLink({ uri: "http://localhost:4000/graphql" }),
+  // link: new HttpLink({ uri: "http://localhost:4000/graphql" }),
+  link: new HttpLink({ uri: import.meta.env.VITE_GRAPHQL_URL }),
   cache: new InMemoryCache(),
 });
 
