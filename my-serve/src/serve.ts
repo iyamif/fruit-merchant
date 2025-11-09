@@ -35,7 +35,7 @@ const startServer = async () => {
   );
 
   app.use(cors({
-    origin: ["https://fruit-merchantt-joo7-b6icapmy8.vercel.app"], // domain frontend Vercel
+    origin: ["https://fruit-merchant-phi.vercel.app"], // domain frontend Vercel
     credentials: true,
   }));
 
