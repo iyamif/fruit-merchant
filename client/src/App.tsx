@@ -95,7 +95,7 @@ export default function App(): JSX.Element {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>E-Commerce Products</h1>
+      <h1 style={styles.title}>E-Commerce Productssss</h1>
 
       {/* Button buka keranjang */}
       <button style={styles.cartButton} onClick={() => setShowCart(true)}>
